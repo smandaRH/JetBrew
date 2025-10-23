@@ -18,10 +18,12 @@ ctlplane_start_ip: 172.16.20.100
 ocp_environment:
   KUBECONFIG: /root/mno/kubeconfig
 
+# Optional: Local path to OCP inventory file
+# If specified and file exists, it will be used instead of downloading from lab
+# ocp_inventory_local_path: /path/to/local/ocpinventory.json
 
 
-
-# External ceph vars
+# External ceph deploy vars
 ceph_node_count: 3
 ansible_ssh_password: "{{ ssh_password }}"
 
