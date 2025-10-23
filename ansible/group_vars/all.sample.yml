@@ -33,3 +33,8 @@ registry_url: "registry.redhat.io"
 registry_username:
 registry_password:
 
+
+#provision variables
+foreman_instance: https://foreman.example.com # provide foreman instance according to the lab you are using.
+
+
